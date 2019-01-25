@@ -8,6 +8,8 @@ package guru.springframework.sfgpetclinic.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import guru.springframework.sfgpetclinic.model.Owner;
 import guru.springframework.sfgpetclinic.services.OwnerService;
 
@@ -18,6 +20,7 @@ import guru.springframework.sfgpetclinic.services.OwnerService;
  * @author RS
  *
  */
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 	
 
